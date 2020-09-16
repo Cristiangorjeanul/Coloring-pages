@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coloring pages</title>
+    <meta name="Coloring pages" content="drawing, coloring" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
+</head>
+
+<body>
+    <form>
+       <label>Coloring pages<br>Select the image:
+            <select id="images">
+                <option>Select
+                <option value="https://s3-us-west-2.amazonaws.com/s.cdpn.io/316753/b.svg">Landscape
+                <option value="https://s3-us-west-2.amazonaws.com/s.cdpn.io/183091/harper-coloring-book003.svg">Bird
+                <option value="https://s3-us-west-2.amazonaws.com/s.cdpn.io/183091/harper-coloring-book006.svg">Insect
+                <option value="https://s3-us-west-2.amazonaws.com/s.cdpn.io/183091/harper-coloring-book007.svg">Animal
+                <option value="https://s3-us-west-2.amazonaws.com/s.cdpn.io/183091/harper-coloring-book020.svg">Flowers
+            </select>
+        </label>
+
+        <label> <br> Select the color:&nbsp;
+            <input type="color" value="#ff1133" id="colors">
+        </label>
+    </form>
+
+    <output id="svg">
+
+    </output>
+</body>
+
+</html>
